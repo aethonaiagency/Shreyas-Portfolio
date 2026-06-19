@@ -8,11 +8,11 @@
   --font-accent: "Cormorant Garamond", serif;
   --font-mono: "JetBrains Mono", monospace;
   
-  --color-olive-base: #6B705C;
+  --color-olive-base: #556B2F;
   --color-olive-dark: #556052;
   --color-gold-muted: #BFA56A;
   --color-warm-grey: #FFFFFF;
-  --color-charcoal: #6B705C;
+  --color-charcoal: #556B2F;
   --color-text-dark: #363C2E;
   --color-text-light: #5A6050;
   --color-border-muted: #E2E4DE;
@@ -40,7 +40,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #6B705C;
+  background: #556B2F;
 }
 
 /* Subtle newspaper noise overlay */
@@ -63,8 +63,8 @@ html {
 
 /* Editorial line pattern */
 .editorial-grid {
-  background-image: linear-gradient(to right, rgba(107, 112, 92, 0.04) 1px, transparent 1px),
-                    linear-gradient(to bottom, rgba(107, 112, 92, 0.04) 1px, transparent 1px);
+  background-image: linear-gradient(to right, rgba(85, 107, 47, 0.04) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(85, 107, 47, 0.04) 1px, transparent 1px);
   background-size: 80px 80px;
 }
 

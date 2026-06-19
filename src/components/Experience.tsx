@@ -12,13 +12,13 @@ export default function Experience() {
   const getExperienceIcon = (iconName: string) => {
     switch (iconName) {
       case "FileText":
-        return <FileText className="w-5 h-5 text-[#6B705C]" />;
+        return <FileText className="w-5 h-5 text-[#556B2F]" />;
       case "PenTool":
         return <PenTool className="w-5 h-5 text-[#556052]" />;
       case "BookOpen":
-        return <BookOpen className="w-5 h-5 text-[#6B705C]" />;
+        return <BookOpen className="w-5 h-5 text-[#556B2F]" />;
       case "Palette":
-        return <Palette className="w-5 h-5 text-[#6B705C]" />;
+        return <Palette className="w-5 h-5 text-[#556B2F]" />;
       default:
         return <Radio className="w-5 h-5" />;
     }
@@ -28,7 +28,7 @@ export default function Experience() {
   const getBentoIcon = (value: string) => {
     switch (value) {
       case "Responsible":
-        return <ShieldCheck className="w-5 h-5 text-[#6B705C]" />;
+        return <ShieldCheck className="w-5 h-5 text-[#556B2F]" />;
       case "Thrives Under Pressure":
         return <Flame className="w-5 h-5 text-orange-650" />;
       case "Communication":
@@ -38,15 +38,15 @@ export default function Experience() {
       case "Fast Learner":
         return <Zap className="w-5 h-5 text-amber-600" />;
       case "Problem Solver":
-        return <Brain className="w-5 h-5 text-[#6B705C]" />;
+        return <Brain className="w-5 h-5 text-[#556B2F]" />;
       default:
-        return <ShieldCheck className="w-5 h-5 text-[#6B705C]" />;
+        return <ShieldCheck className="w-5 h-5 text-[#556B2F]" />;
     }
   };
 
   // Map background borders on hover for bento attributes
   const getBentoStyles = (index: number) => {
-    return "hover:border-[#6B705C] transition-all";
+    return "hover:border-[#556B2F] transition-all";
   };
 
   return (
@@ -61,16 +61,16 @@ export default function Experience() {
           {/* Section Header */}
           <div className="mb-16 text-left flex flex-wrap items-end justify-between gap-4">
             <div>
-              <span className="font-mono text-[9px] tracking-widest uppercase text-[#6B705C] font-bold block mb-2.5">
+              <span className="font-mono text-[9px] tracking-widest uppercase text-[#556B2F] font-bold block mb-2.5">
                 // Professional Practice
               </span>
               <h3 className="font-serif text-3xl sm:text-4xl font-normal text-[#363C2E] leading-tight">
                 Work & Academic Experience
               </h3>
-              <div className="w-12 h-[2px] bg-[#6B705C] mt-4" />
+              <div className="w-12 h-[2px] bg-[#556B2F] mt-4" />
             </div>
-            <div className="bg-[#6B705C]/10 border border-[#6B705C]/25 px-4 py-2 rounded-xl text-left max-w-xs">
-              <p className="font-mono text-[10px] uppercase tracking-wider text-[#6B705C] font-bold">
+            <div className="bg-[#556B2F]/10 border border-[#556B2F]/25 px-4 py-2 rounded-xl text-left max-w-xs">
+              <p className="font-mono text-[10px] uppercase tracking-wider text-[#556B2F] font-bold">
                 Career Status: Student / Active
               </p>
               <p className="font-sans text-[11px] text-[#5A6050] mt-0.5 leading-tight font-medium">
@@ -124,7 +124,7 @@ export default function Experience() {
         <div>
           {/* Section Header */}
           <div className="mb-14 text-left">
-            <span className="font-mono text-[9px] tracking-widest uppercase text-[#6B705C] font-bold block mb-2.5">
+            <span className="font-mono text-[9px] tracking-widest uppercase text-[#556B2F] font-bold block mb-2.5">
               // Core Attributes
             </span>
             <h3 className="font-serif text-2xl sm:text-3xl font-normal text-[#363C2E] leading-tight">
@@ -150,7 +150,7 @@ export default function Experience() {
                 >
                   
                   {/* Glowing background decor on hover */}
-                  <div className="absolute top-0 right-0 w-32 h-32 rounded-full bg-[#6B705C]/5 blur-2xl group-hover:bg-[#6B705C]/10 pointer-events-none transition-all duration-500" />
+                  <div className="absolute top-0 right-0 w-32 h-32 rounded-full bg-[#556B2F]/5 blur-2xl group-hover:bg-[#556B2F]/10 pointer-events-none transition-all duration-500" />
                   
                   <div className="space-y-3 relative z-10">
                     {/* Header Row */}
@@ -163,7 +163,7 @@ export default function Experience() {
                       </div>
                     </div>
 
-                    <h4 className="font-serif text-lg font-bold text-[#363C2E] tracking-tight group-hover:text-[#6B705C] transition-colors leading-tight">
+                    <h4 className="font-serif text-lg font-bold text-[#363C2E] tracking-tight group-hover:text-[#556B2F] transition-colors leading-tight">
                       {bento.value}
                     </h4>
                   </div>
@@ -173,7 +173,7 @@ export default function Experience() {
                   </p>
 
                   {/* Corner indicator accent */}
-                  <div className="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-[#6B705C]">
+                  <div className="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-[#556B2F]">
                     <ArrowUpRight className="w-3.5 h-3.5" />
                   </div>
 

@@ -17,7 +17,7 @@ export default function QuoteBanner() {
   const activeQuote = JOURNALISM_QUOTES[index];
 
   return (
-    <section className="py-20 bg-gradient-to-r from-[#6B705C] to-[#556052] text-white relative overflow-hidden transition-colors duration-350 select-none">
+    <section className="py-20 bg-gradient-to-r from-[#556B2F] to-[#556052] text-white relative overflow-hidden transition-colors duration-350 select-none">
       
       {/* Editorial grid overlay inside dark quote division */}
       <div className="absolute inset-0 editorial-grid pointer-events-none opacity-5" />

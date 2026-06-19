@@ -16,13 +16,13 @@ export default function About() {
         
         {/* Section Header */}
         <div className="mb-16 md:mb-20 text-left">
-          <span className="font-mono text-[9px] tracking-widest uppercase text-[#6B705C] font-bold block mb-2.5">
+          <span className="font-mono text-[9px] tracking-widest uppercase text-[#556B2F] font-bold block mb-2.5">
             // Profile & Bio
           </span>
           <h3 className="font-serif text-3xl sm:text-4xl font-normal text-[#363C2E] leading-tight">
             About Me
           </h3>
-          <div className="w-12 h-[2px] bg-[#6B705C] mt-4" />
+          <div className="w-12 h-[2px] bg-[#556B2F] mt-4" />
         </div>
 
         {/* Column Split Layout */}
@@ -38,14 +38,14 @@ export default function About() {
               className="relative w-full max-w-[340px] aspect-[3/4]"
             >
               {/* Gold frame overlay backing */}
-              <div className="absolute -inset-3.5 rounded-[22px] border border-[#6B705C]/25" />
+              <div className="absolute -inset-3.5 rounded-[22px] border border-[#556B2F]/25" />
               
               {/* Outer border container */}
-              <div className="absolute inset-0 rounded-[18px] bg-[#6B705C]/5 border border-[#E2E4DE]" />
+              <div className="absolute inset-0 rounded-[18px] bg-[#556B2F]/5 border border-[#E2E4DE]" />
               
               {/* Image holder */}
               <div className="absolute inset-[8px] rounded-[14px] overflow-hidden group shadow-md">
-                <div className="absolute inset-0 bg-gradient-to-tr from-[#6B705C]/15 to-transparent z-10 pointer-events-none" />
+                <div className="absolute inset-0 bg-gradient-to-tr from-[#556B2F]/15 to-transparent z-10 pointer-events-none" />
                 <img
                   src={desktopImg}
                   alt="Journalism Desk"
@@ -57,7 +57,7 @@ export default function About() {
               {/* Small Overlay Decorative Card */}
               <div className="absolute -bottom-6 -right-6 md:-right-8 bg-white border border-[#E2E4DE] p-4 rounded-xl shadow-lg max-w-[200px] z-20">
                 <div className="flex items-center space-x-2.5 mb-2">
-                  <div className="p-1 rounded bg-[#6B705C]/15 text-[#6B705C]">
+                  <div className="p-1 rounded bg-[#556B2F]/15 text-[#556B2F]">
                     <Compass className="w-3.5 h-3.5" />
                   </div>
                   <span className="font-mono text-[9px] tracking-wider uppercase text-[#363C2E] font-bold">
@@ -77,7 +77,7 @@ export default function About() {
             {/* Biography text */}
             <div className="space-y-4">
               <h4 className="font-serif text-xl text-[#363C2E] font-normal italic">
-                Shreya Hossain — Journalist, researcher, and critical observer.
+                Nashiat Hossain — Journalist, researcher, and critical observer.
               </h4>
               <p className="font-sans text-[14px] sm:text-[15px] leading-relaxed text-[#5A6050]">
                 I am currently pursuing a Bachelor of Social Science (BSS) in Journalism, Media & Communication at <strong>Daffodil International University</strong>. Driven by a deep curiosity for social truths and a dedication to media integrity, I craft long-form reports, analyze literature, and design communicative frameworks.
@@ -93,15 +93,15 @@ export default function About() {
               {/* Card 1: CGPA */}
               <motion.div
                 whileHover={{ y: -4 }}
-                className="bg-white border border-[#E2E4DE] p-4 rounded-[18px] text-center flex flex-col justify-between shadow-xs hover:border-[#6B705C]/30 transition-all duration-300"
+                className="bg-white border border-[#E2E4DE] p-4 rounded-[18px] text-center flex flex-col justify-between shadow-xs hover:border-[#556B2F]/30 transition-all duration-300"
               >
                 <div className="flex justify-center mb-2.5">
-                  <div className="p-2 rounded-full bg-[#6B705C]/10 text-[#6B705C]">
+                  <div className="p-2 rounded-full bg-[#556B2F]/10 text-[#556B2F]">
                     <Award className="w-4 h-4" />
                   </div>
                 </div>
                 <div>
-                  <p className="font-serif text-2xl font-bold text-[#6B705C]">
+                  <p className="font-serif text-2xl font-bold text-[#556B2F]">
                     {ACADEMIC_STATS.cgpa}
                   </p>
                   <p className="font-sans text-[10px] tracking-wide uppercase text-[#5A6050] font-semibold mt-1">
@@ -113,7 +113,7 @@ export default function About() {
               {/* Card 2: Current term */}
               <motion.div
                 whileHover={{ y: -4 }}
-                className="bg-white border border-[#E2E4DE] p-4 rounded-[18px] text-center flex flex-col justify-between shadow-xs hover:border-[#6B705C]/30 transition-all duration-300"
+                className="bg-white border border-[#E2E4DE] p-4 rounded-[18px] text-center flex flex-col justify-between shadow-xs hover:border-[#556B2F]/30 transition-all duration-300"
               >
                 <div className="flex justify-center mb-2.5">
                   <div className="p-2 rounded-full bg-[#556052]/10 text-[#556052]">
@@ -133,10 +133,10 @@ export default function About() {
               {/* Card 3: Major program */}
               <motion.div
                 whileHover={{ y: -4 }}
-                className="bg-white border border-[#E2E4DE] p-4 rounded-[18px] text-center col-span-1 flex flex-col justify-between shadow-xs hover:border-[#6B705C]/30 transition-all duration-300"
+                className="bg-white border border-[#E2E4DE] p-4 rounded-[18px] text-center col-span-1 flex flex-col justify-between shadow-xs hover:border-[#556B2F]/30 transition-all duration-300"
               >
                 <div className="flex justify-center mb-2.5">
-                  <div className="p-2 rounded-full bg-[#6B705C]/10 text-[#6B705C]">
+                  <div className="p-2 rounded-full bg-[#556B2F]/10 text-[#556B2F]">
                     <GraduationCap className="w-4 h-4" />
                   </div>
                 </div>
@@ -153,7 +153,7 @@ export default function About() {
               {/* Card 4: Expected graduation */}
               <motion.div
                 whileHover={{ y: -4 }}
-                className="bg-white border border-[#E2E4DE] p-4 rounded-[18px] text-center flex flex-col justify-between shadow-xs hover:border-[#6B705C]/30 transition-all duration-300"
+                className="bg-white border border-[#E2E4DE] p-4 rounded-[18px] text-center flex flex-col justify-between shadow-xs hover:border-[#556B2F]/30 transition-all duration-300"
               >
                 <div className="flex justify-center mb-2.5">
                   <div className="p-2 rounded-full bg-[#556052]/10 text-[#556052]">
@@ -173,8 +173,8 @@ export default function About() {
             </div>
 
             {/* University Citation Footnote */}
-            <div className="p-4 rounded-[12px] bg-[#6B705C]/5 border border-[#6B705C]/20 flex items-start space-x-3">
-              <GraduationCap className="w-4.5 h-4.5 text-[#6B705C] mt-0.5 flex-shrink-0" />
+            <div className="p-4 rounded-[12px] bg-[#556B2F]/5 border border-[#556B2F]/20 flex items-start space-x-3">
+              <GraduationCap className="w-4.5 h-4.5 text-[#556B2F] mt-0.5 flex-shrink-0" />
               <div>
                 <p className="font-serif text-[12px] font-semibold text-[#363C2E]">
                   {ACADEMIC_STATS.university}

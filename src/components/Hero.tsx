@@ -48,8 +48,8 @@ export default function Hero({ onOpenCV }: HeroProps) {
       <div className="absolute inset-0 editorial-grid pointer-events-none opacity-40" />
 
       {/* Decorative blurred blobs of Olive Green behind content */}
-      <div className="absolute top-1/4 left-1/10 w-96 h-96 rounded-full bg-[#6B705C]/8 blur-3xl pointer-events-none" />
-      <div className="absolute bottom-1/4 right-1/10 w-96 h-96 rounded-full bg-[#6B705C]/5 blur-3xl pointer-events-none" />
+      <div className="absolute top-1/4 left-1/10 w-96 h-96 rounded-full bg-[#556B2F]/8 blur-3xl pointer-events-none" />
+      <div className="absolute bottom-1/4 right-1/10 w-96 h-96 rounded-full bg-[#556B2F]/5 blur-3xl pointer-events-none" />
 
       {/* Fine editorial layout marker lines */}
       <div className="absolute top-0 left-12 w-[1px] h-full bg-[#E2E4DE] hidden md:block" />
@@ -67,9 +67,9 @@ export default function Hero({ onOpenCV }: HeroProps) {
                 initial={{ opacity: 0, x: -15 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
-                className="flex items-center space-x-2 text-[#6B705C]"
+                className="flex items-center space-x-2 text-[#556B2F]"
               >
-                <span className="w-8 h-[1px] bg-[#6B705C]" />
+                <span className="w-8 h-[1px] bg-[#556B2F]" />
                 <span className="font-mono text-[11px] tracking-widest uppercase font-semibold">
                   Undergrad Portfolio
                 </span>
@@ -84,7 +84,7 @@ export default function Hero({ onOpenCV }: HeroProps) {
                     animate={{ y: 0 }}
                     transition={{ duration: 0.7, ease: [0.25, 1, 0.5, 1] }}
                   >
-                    Journalism Student<span className="text-[#6B705C]">.</span>
+                    Journalism Student<span className="text-[#556B2F]">.</span>
                   </motion.span>
                 </span>
                 <span className="block overflow-hidden py-1">
@@ -94,7 +94,7 @@ export default function Hero({ onOpenCV }: HeroProps) {
                     animate={{ y: 0 }}
                     transition={{ delay: 0.1, duration: 0.7, ease: [0.25, 1, 0.5, 1] }}
                   >
-                    Storyteller<span className="text-[#6B705C] font-light">.</span>
+                    Storyteller<span className="text-[#556B2F] font-light">.</span>
                   </motion.span>
                 </span>
                 <span className="block overflow-hidden py-1 text-2xl sm:text-3xl lg:text-4xl mt-3 text-[#556052] font-accent italic">
@@ -130,7 +130,7 @@ export default function Hero({ onOpenCV }: HeroProps) {
               {/* Premium Pill Trigger button for CV */}
               <button
                 onClick={onOpenCV}
-                className="px-7 py-3.5 rounded-full bg-[#6B705C] hover:bg-[#556052] text-white text-xs font-semibold tracking-widest uppercase transition-all duration-350 cursor-pointer shadow-md hover:-translate-y-0.5 flex items-center space-x-2"
+                className="px-7 py-3.5 rounded-full bg-[#556B2F] hover:bg-[#556052] text-white text-xs font-semibold tracking-widest uppercase transition-all duration-350 cursor-pointer shadow-md hover:-translate-y-0.5 flex items-center space-x-2"
               >
                 <FileText className="w-4 h-4" />
                 <span>Download CV</span>
@@ -139,7 +139,7 @@ export default function Hero({ onOpenCV }: HeroProps) {
               {/* Contact me scroll button */}
               <button
                 onClick={scrollToContact}
-                className="px-7 py-3.5 rounded-full border border-[#6B705C]/35 bg-white/40 text-[#6B705C] hover:border-[#6B705C] text-xs font-semibold tracking-widest uppercase transition-all duration-350 cursor-pointer hover:bg-[#6B705C]/5 flex items-center space-x-1"
+                className="px-7 py-3.5 rounded-full border border-[#556B2F]/35 bg-white/40 text-[#556B2F] hover:border-[#556B2F] text-xs font-semibold tracking-widest uppercase transition-all duration-350 cursor-pointer hover:bg-[#556B2F]/5 flex items-center space-x-1"
               >
                 <span>Contact Me</span>
               </button>
@@ -151,13 +151,13 @@ export default function Hero({ onOpenCV }: HeroProps) {
             <div className="relative w-full max-w-[340px] sm:max-w-[380px] aspect-[3/4]">
               
               {/* Luxury Frame Behind Gradients */}
-              <div className="absolute inset-0 rounded-[18px] bg-gradient-to-tr from-[#6B705C]/20 via-transparent to-[#6B705C]/10 blur-xl -z-10 animate-pulse-slow" />
+              <div className="absolute inset-0 rounded-[18px] bg-gradient-to-tr from-[#556B2F]/20 via-transparent to-[#556B2F]/10 blur-xl -z-10 animate-pulse-slow" />
               
               {/* Soft outer thin border */}
               <div className="absolute -inset-2.5 rounded-[22px] border border-[#E2E4DE]" />
               
               {/* Framing background graphic backing */}
-              <div className="absolute inset-0 rounded-[18px] bg-[#6B705C]/5 border border-[#E2E4DE]" />
+              <div className="absolute inset-0 rounded-[18px] bg-[#556B2F]/5 border border-[#E2E4DE]" />
               
               {/* Image element with overlay shade */}
               <motion.div
@@ -172,14 +172,14 @@ export default function Hero({ onOpenCV }: HeroProps) {
                 {/* Hover zoom picture */}
                 <motion.img
                   src={portraitImg}
-                  alt="Shreya Hossain"
+                  alt="Nashiat Hossain"
                   className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-106"
                   referrerPolicy="no-referrer"
                 />
 
                 {/* Embedded status sticker tag */}
                 <div className="absolute bottom-4 left-4 z-20 bg-white/95 px-3 py-1.5 rounded-full border border-[#E2E4DE] backdrop-blur-sm shadow-sm flex items-center space-x-1.5">
-                  <span className="w-2 h-2 rounded-full bg-[#6B705C] animate-ping" />
+                  <span className="w-2 h-2 rounded-full bg-[#556B2F] animate-ping" />
                   <span className="font-mono text-[9px] tracking-wider uppercase text-[#363C2E] font-bold">
                     6th Semester • DIU
                   </span>
@@ -192,7 +192,7 @@ export default function Hero({ onOpenCV }: HeroProps) {
               <motion.div
                 animate={{ y: [-10, 10, -10], rotate: [0, 8, 0] }}
                 transition={floatTransition(0)}
-                className="absolute -left-5 top-1/6 z-30 p-2.5 rounded-xl bg-white border border-[#E2E4DE] shadow-md text-[#6B705C]"
+                className="absolute -left-5 top-1/6 z-30 p-2.5 rounded-xl bg-white border border-[#E2E4DE] shadow-md text-[#556B2F]"
               >
                 <Newspaper className="w-4.5 h-4.5" />
               </motion.div>
@@ -210,7 +210,7 @@ export default function Hero({ onOpenCV }: HeroProps) {
               <motion.div
                 animate={{ y: [-5, 8, -5], rotate: [0, 5, 0] }}
                 transition={floatTransition(2.3)}
-                className="absolute -left-6 bottom-1/4 z-30 p-2.5 rounded-xl bg-white border border-[#E2E4DE] shadow-md text-[#6B705C]"
+                className="absolute -left-6 bottom-1/4 z-30 p-2.5 rounded-xl bg-white border border-[#E2E4DE] shadow-md text-[#556B2F]"
               >
                 <Mic className="w-4.5 h-4.5" />
               </motion.div>
@@ -219,7 +219,7 @@ export default function Hero({ onOpenCV }: HeroProps) {
               <motion.div
                 animate={{ y: [8, -8, 8], rotate: [0, -6, 0] }}
                 transition={floatTransition(1.8)}
-                className="absolute -right-3 bottom-1/8 z-30 p-2.5 rounded-xl bg-white border border-[#E2E4DE] shadow-md text-[#6B705C]"
+                className="absolute -right-3 bottom-1/8 z-30 p-2.5 rounded-xl bg-white border border-[#E2E4DE] shadow-md text-[#556B2F]"
               >
                 <MessageSquare className="w-4.5 h-4.5" />
               </motion.div>
@@ -241,7 +241,7 @@ export default function Hero({ onOpenCV }: HeroProps) {
             className="flex flex-col items-center space-y-1.5 text-[#5A6050] hover:text-[#363C2E] group transition-colors cursor-pointer"
           >
             <span className="font-mono text-[9px] tracking-widest uppercase font-semibold">Scroll Down</span>
-            <ArrowDown className="w-4 h-4 font-light text-[#6B705C]" />
+            <ArrowDown className="w-4 h-4 font-light text-[#556B2F]" />
           </motion.button>
         </div>
 

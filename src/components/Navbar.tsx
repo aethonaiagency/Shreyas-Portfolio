@@ -70,17 +70,19 @@ export default function Navbar({ onOpenCV }: NavbarProps) {
         {/* Logo Branding */}
         <button 
           onClick={() => scrollToSection("home")}
-          className="flex items-center space-x-2.5 text-left group cursor-pointer"
+          className="flex items-center space-x-2 text-left group cursor-pointer"
         >
-          <div className="w-10 h-10 rounded-full bg-[#6B705C] text-white flex items-center justify-center font-serif font-bold text-lg tracking-wider transition-transform duration-300 group-hover:scale-105 shadow-sm">
-            SH
+          <div className="flex items-center">
+            <span className="font-sans font-black text-xl sm:text-2xl tracking-tighter text-[#363C2E] transition-colors duration-300 group-hover:text-[#556B2F]">
+              SHREYA
+            </span>
           </div>
-          <div>
-            <h1 className="font-serif text-[15px] font-semibold tracking-wide text-[#363C2E] leading-tight">
-              Shreya Hossain
-            </h1>
-            <p className="font-mono text-[9px] tracking-wider uppercase text-[#5A6050] group-hover:text-[#6B705C] transition-colors">
-              Journalism & Media
+          <div className="pl-2 border-l border-[#E2E4DE] hidden sm:block">
+            <p className="font-mono text-[9px] tracking-widest uppercase text-[#5A6050] group-hover:text-[#556B2F] transition-colors leading-none">
+              Journalism
+            </p>
+            <p className="font-sans text-[8px] tracking-wider text-[#A3A79A] leading-none mt-0.5">
+              Portfolio
             </p>
           </div>
         </button>
@@ -94,7 +96,7 @@ export default function Navbar({ onOpenCV }: NavbarProps) {
                   onClick={() => scrollToSection(link.id)}
                   className={`text-[13px] font-sans font-medium tracking-wide relative py-1 cursor-pointer transition-colors duration-250 ${
                     activeSection === link.id
-                      ? "text-[#6B705C] font-semibold"
+                      ? "text-[#556B2F] font-semibold"
                       : "text-[#5A6050] hover:text-[#363C2E]"
                   }`}
                 >
@@ -102,7 +104,7 @@ export default function Navbar({ onOpenCV }: NavbarProps) {
                   {activeSection === link.id && (
                     <motion.span
                       layoutId="activeUnderline"
-                      className="absolute bottom-0 left-0 w-full h-[1.5px] bg-[#6B705C]"
+                      className="absolute bottom-0 left-0 w-full h-[1.5px] bg-[#556B2F]"
                       transition={{ type: "spring", stiffness: 350, damping: 30 }}
                     />
                   )}
@@ -118,7 +120,7 @@ export default function Navbar({ onOpenCV }: NavbarProps) {
             {/* Quick action CV button */}
             <button
               onClick={onOpenCV}
-              className="px-4 py-1.5 rounded-full border border-[#6B705C]/35 hover:border-[#6B705C] text-[12px] font-mono tracking-wider text-[#6B705C] hover:bg-[#6B705C]/5 transition-all duration-300 cursor-pointer font-semibold"
+              className="px-4 py-1.5 rounded-full border border-[#556B2F]/35 hover:border-[#556B2F] text-[12px] font-mono tracking-wider text-[#556B2F] hover:bg-[#556B2F]/5 transition-all duration-300 cursor-pointer font-semibold"
             >
               Resume File
             </button>
@@ -129,7 +131,7 @@ export default function Navbar({ onOpenCV }: NavbarProps) {
         <div className="flex items-center space-x-3.5 lg:hidden">
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="p-2 rounded-lg hover:bg-[#6B705C]/5 text-[#363C2E]"
+            className="p-2 rounded-lg hover:bg-[#556B2F]/5 text-[#363C2E]"
             aria-label="Toggle Menu"
           >
             {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -155,13 +157,13 @@ export default function Navbar({ onOpenCV }: NavbarProps) {
                       onClick={() => scrollToSection(link.id)}
                       className={`text-base font-serif font-medium tracking-wide flex items-center justify-between w-full py-1.5 border-b border-[#E2E4DE]/60 ${
                         activeSection === link.id
-                          ? "text-[#6B705C] font-semibold"
+                          ? "text-[#556B2F] font-semibold"
                           : "text-[#5A6050]"
                       }`}
                     >
                       <span>{link.label}</span>
                       {activeSection === link.id && (
-                        <span className="w-1.5 h-1.5 rounded-full bg-[#6B705C]" />
+                        <span className="w-1.5 h-1.5 rounded-full bg-[#556B2F]" />
                       )}
                     </button>
                   </li>
@@ -174,7 +176,7 @@ export default function Navbar({ onOpenCV }: NavbarProps) {
                     setMobileMenuOpen(false);
                     onOpenCV();
                   }}
-                  className="w-full py-2.5 rounded-xl bg-[#6B705C] hover:bg-[#556052] text-white font-sans font-medium text-xs tracking-wider uppercase text-center transition-all flex items-center justify-center space-x-2 shadow-sm"
+                  className="w-full py-2.5 rounded-xl bg-[#556B2F] hover:bg-[#556052] text-white font-sans font-medium text-xs tracking-wider uppercase text-center transition-all flex items-center justify-center space-x-2 shadow-sm"
                 >
                   <span>View Professional CV</span>
                   <ArrowRight className="w-3.5 h-3.5" />

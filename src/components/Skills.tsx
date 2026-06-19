@@ -9,11 +9,11 @@ export default function Skills() {
   const getCategoryIcon = (title: string) => {
     switch (title) {
       case "Journalism & Writing":
-        return <PenTool className="w-5 h-5 text-[#6B705C]" />;
+        return <PenTool className="w-5 h-5 text-[#556B2F]" />;
       case "Technical Utilities":
-        return <Laptop className="w-5 h-5 text-[#6B705C]" />;
+        return <Laptop className="w-5 h-5 text-[#556B2F]" />;
       case "Communication & Core":
-        return <Users className="w-5 h-5 text-[#6B705C]" />;
+        return <Users className="w-5 h-5 text-[#556B2F]" />;
       default:
         return <CheckCircle className="w-5 h-5" />;
     }
@@ -29,13 +29,13 @@ export default function Skills() {
         {/* Section Header */}
         <div className="mb-16 md:mb-20 text-left flex flex-wrap items-end justify-between gap-4">
           <div>
-            <span className="font-mono text-[9px] tracking-widest uppercase text-[#6B705C] font-bold block mb-2.5">
+            <span className="font-mono text-[9px] tracking-widest uppercase text-[#556B2F] font-bold block mb-2.5">
               // Competencies & Methods
             </span>
             <h3 className="font-serif text-3xl sm:text-4xl font-normal text-[#363C2E] leading-tight">
               Skills & Expertise
             </h3>
-            <div className="w-12 h-[2px] bg-[#6B705C] mt-4" />
+            <div className="w-12 h-[2px] bg-[#556B2F] mt-4" />
           </div>
           <p className="font-sans text-[13px] text-[#5A6050] max-w-sm md:text-right">
             Blending traditional reportage standards with digital creation assets and modern workspace efficiency.
@@ -52,7 +52,7 @@ export default function Skills() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-60px" }}
                 transition={{ duration: 0.5, delay: idx * 0.12 }}
-                className="bg-[#F9F9F7] border border-[#E2E4DE] p-6 md:p-8 rounded-[18px] hover:border-[#6B705C]/50 transition-all duration-350 shadow-xs flex flex-col justify-between"
+                className="bg-[#F9F9F7] border border-[#E2E4DE] p-6 md:p-8 rounded-[18px] hover:border-[#556B2F]/50 transition-all duration-350 shadow-xs flex flex-col justify-between"
               >
                 <div>
                   {/* Category Header */}
@@ -75,7 +75,7 @@ export default function Skills() {
                           className="flex items-center space-x-2.5 py-1"
                         >
                           {/* Checked icon indicator */}
-                          <div className="w-1.5 h-1.5 rounded-full bg-[#6B705C]" />
+                          <div className="w-1.5 h-1.5 rounded-full bg-[#556B2F]" />
                           <span className="font-sans text-[13px] sm:text-[14px] text-[#363C2E] font-medium">
                             {skill}
                           </span>
@@ -91,9 +91,9 @@ export default function Skills() {
                     Term Certified
                   </span>
                   <div className="flex space-x-1">
-                    <span className="w-1 h-1 rounded-full bg-[#6B705C]" />
+                    <span className="w-1 h-1 rounded-full bg-[#556B2F]" />
                     <span className="w-1 flex-1 h-[2px] rounded-full  bg-[#556052]" />
-                    <span className="w-1 h-1 rounded-full bg-[#6B705C]" />
+                    <span className="w-1 h-1 rounded-full bg-[#556B2F]" />
                   </div>
                 </div>
 

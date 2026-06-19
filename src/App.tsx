@@ -49,12 +49,12 @@ export default function App() {
   return (
     <>
       <div
-        className="min-h-screen font-sans bg-white text-[#363C2E] transition-colors duration-350 relative pb-0 selection:bg-[#6B705C]/25"
+        className="min-h-screen font-sans bg-white text-[#363C2E] transition-colors duration-350 relative pb-0 selection:bg-[#556B2F]/25"
       >
         {/* Scroll Progress Bar (Top of body) */}
         <div className="fixed top-0 left-0 w-full h-[3.5px] z-50 pointer-events-none">
           <div 
-            className="h-full bg-gradient-to-r from-[#6B705C] via-[#BFA56A] to-[#6B705C] transition-all duration-75"
+            className="h-full bg-gradient-to-r from-[#556B2F] via-[#BFA56A] to-[#556B2F] transition-all duration-75"
             style={{ width: `${scrollProgress}%` }}
           />
         </div>
@@ -70,11 +70,11 @@ export default function App() {
         />
 
         {/* Frame Boundaries Decorators for Editorial Style */}
-        <div className="no-print hidden lg:block fixed left-6 top-1/2 -translate-y-1/2 font-mono text-[9px] tracking-widest uppercase text-[#6B705C]/35 -rotate-90 origin-center pointer-events-none z-35 select-none">
+        <div className="no-print hidden lg:block fixed left-6 top-1/2 -translate-y-1/2 font-mono text-[9px] tracking-widest uppercase text-[#556B2F]/35 -rotate-90 origin-center pointer-events-none z-35 select-none">
           SHREYA HOSSAIN • JOURNALISM PORTFOLIO
         </div>
         
-        <div className="no-print hidden lg:block fixed right-6 top-1/2 -translate-y-1/2 font-mono text-[9px] tracking-widest uppercase text-[#6B705C]/35 rotate-90 origin-center pointer-events-none z-35 select-none">
+        <div className="no-print hidden lg:block fixed right-6 top-1/2 -translate-y-1/2 font-mono text-[9px] tracking-widest uppercase text-[#556B2F]/35 rotate-90 origin-center pointer-events-none z-35 select-none">
           EST. SESSION 2024 - 2028
         </div>
 
@@ -102,7 +102,7 @@ export default function App() {
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.5, y: 15 }}
               onClick={scrollToTop}
-              className="no-print fixed bottom-6 right-6 p-3.5 rounded-full bg-[#6B705C] hover:bg-[#556052] text-white transition-all duration-300 shadow-lg cursor-pointer z-40 border border-white/10"
+              className="no-print fixed bottom-6 right-6 p-3.5 rounded-full bg-[#556B2F] hover:bg-[#556052] text-white transition-all duration-300 shadow-lg cursor-pointer z-40 border border-white/10"
               title="Scroll to main top"
               whileHover={{ y: -3 }}
               style={{ touchAction: "manipulation" }}

@@ -32,17 +32,20 @@ export default function Footer({ onOpenCV }: FooterProps) {
           <div className="md:col-span-5 space-y-4 text-left">
             <button 
               onClick={() => scrollToSection("home")}
-              className="flex items-center space-x-3.5 group text-left cursor-pointer"
+              className="flex items-center space-x-2 group text-left cursor-pointer"
             >
-              <div className="w-10 h-10 rounded-full bg-white text-[#556052] flex items-center justify-center font-serif font-bold text-lg tracking-wider transition-transform group-hover:scale-105">
-                SH
+              <div className="flex items-center">
+                <span className="font-sans font-black text-xl tracking-tighter text-white transition-all">
+                  SHREYA
+                </span>
+                <span className="text-xl font-black text-[#a78bfa] group-hover:animate-bounce">.</span>
               </div>
-              <div>
-                <h4 className="font-serif text-[15px] font-semibold tracking-wide text-white leading-tight">
-                  Shreya Hossain
-                </h4>
-                <p className="font-mono text-[9px] tracking-wider uppercase text-white/80 group-hover:text-white transition-colors">
-                  Journalism major
+              <div className="pl-2 border-l border-white/20">
+                <p className="font-mono text-[9px] tracking-wider uppercase text-white/80 group-hover:text-white transition-colors leading-none">
+                  Journalism
+                </p>
+                <p className="font-sans text-[8px] tracking-wider text-white/50 leading-none mt-0.5">
+                  Portfolio
                 </p>
               </div>
             </button>
@@ -128,12 +131,12 @@ export default function Footer({ onOpenCV }: FooterProps) {
 
         {/* Lower row block */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/60 font-mono">
-          <p>© {currentYear} Shreya Hossain. All rights reserved.</p>
+          <p>© {currentYear} Nashiat Hossain. All rights reserved.</p>
           
           <div className="flex items-center space-x-1.5 self-center text-white/70">
             <span>Designed by</span>
             <span className="font-serif text-[13px] font-bold text-white tracking-wide uppercase hover:text-white/85 transition-colors cursor-pointer">
-              NASHIAT
+              SHREYA
             </span>
           </div>
         </div>

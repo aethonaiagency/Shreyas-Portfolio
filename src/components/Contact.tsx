@@ -91,20 +91,20 @@ export default function Contact() {
         
         {/* Section Header */}
         <div className="mb-16 md:mb-20 text-left">
-          <span className="font-mono text-[9px] tracking-widest uppercase text-[#6B705C] font-bold block mb-2.5">
+          <span className="font-mono text-[9px] tracking-widest uppercase text-[#556B2F] font-bold block mb-2.5">
             // Connections & inquiries
           </span>
           <h3 className="font-serif text-3xl sm:text-4xl font-normal text-[#363C2E] leading-tight">
             Contact Me
           </h3>
-          <div className="w-12 h-[2px] bg-[#6B705C] mt-4" />
+          <div className="w-12 h-[2px] bg-[#556B2F] mt-4" />
         </div>
 
         {/* Master Column Split card */}
         <div className="bg-white rounded-[24px] border border-[#E2E4DE] overflow-hidden shadow-xs grid grid-cols-1 lg:grid-cols-12 gap-0">
           
           {/* LEFT SUB-CELL: Contact credentials detail list (5 columns) */}
-          <div className="lg:col-span-5 p-8 md:p-12 bg-gradient-to-br from-[#6B705C] to-[#556052] border-b lg:border-b-0 lg:border-r border-[#E2E4DE] text-white flex flex-col justify-between space-y-12 relative overflow-hidden">
+          <div className="lg:col-span-5 p-8 md:p-12 bg-gradient-to-br from-[#556B2F] to-[#556052] border-b lg:border-b-0 lg:border-r border-[#E2E4DE] text-white flex flex-col justify-between space-y-12 relative overflow-hidden">
             
             {/* Fine design element blobs */}
             <div className="absolute top-0 right-0 w-44 h-44 rounded-full bg-white/5 blur-3xl pointer-events-none" />
@@ -236,7 +236,7 @@ export default function Contact() {
                         value={name}
                         onChange={(e) => setName(e.target.value)}
                         placeholder="e.g. Sarah Jenkins"
-                        className="w-full px-4 py-3 rounded-xl border border-[#E2E4DE] bg-[#F9F9F7] text-sm focus:outline-none focus:border-[#6B705C] focus:bg-white text-[#363C2E] transition-colors"
+                        className="w-full px-4 py-3 rounded-xl border border-[#E2E4DE] bg-[#F9F9F7] text-sm focus:outline-none focus:border-[#556B2F] focus:bg-white text-[#363C2E] transition-colors"
                       />
                     </div>
 
@@ -250,7 +250,7 @@ export default function Contact() {
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         placeholder="email@example.com"
-                        className="w-full px-4 py-3 rounded-xl border border-[#E2E4DE] bg-[#F9F9F7] text-sm focus:outline-none focus:border-[#6B705C] focus:bg-white text-[#363C2E] transition-colors"
+                        className="w-full px-4 py-3 rounded-xl border border-[#E2E4DE] bg-[#F9F9F7] text-sm focus:outline-none focus:border-[#556B2F] focus:bg-white text-[#363C2E] transition-colors"
                       />
                     </div>
                   </div>
@@ -265,7 +265,7 @@ export default function Contact() {
                       value={subject}
                       onChange={(e) => setSubject(e.target.value)}
                       placeholder="e.g. Digital Media Internship Opportunity"
-                      className="w-full px-4 py-3 rounded-xl border border-[#E2E4DE] bg-[#F9F9F7] text-sm focus:outline-none focus:border-[#6B705C] focus:bg-white text-[#363C2E] transition-colors"
+                      className="w-full px-4 py-3 rounded-xl border border-[#E2E4DE] bg-[#F9F9F7] text-sm focus:outline-none focus:border-[#556B2F] focus:bg-white text-[#363C2E] transition-colors"
                     />
                   </div>
 
@@ -279,14 +279,14 @@ export default function Contact() {
                       onChange={(e) => setMessage(e.target.value)}
                       rows={4}
                       placeholder="Write your editorial proposal or inquiry details..."
-                      className="w-full px-4 py-3 rounded-xl border border-[#E2E4DE] bg-[#F9F9F7] text-sm focus:outline-none focus:border-[#6B705C] focus:bg-white text-[#363C2E] transition-colors resize-none mb-1"
+                      className="w-full px-4 py-3 rounded-xl border border-[#E2E4DE] bg-[#F9F9F7] text-sm focus:outline-none focus:border-[#556B2F] focus:bg-white text-[#363C2E] transition-colors resize-none mb-1"
                     />
                   </div>
 
                   {/* Spam Prevention challenge */}
                   <div className="p-3.5 bg-[#F9F9F7] rounded-xl border border-[#E2E4DE] flex flex-wrap items-center justify-between gap-3">
                     <div className="flex items-center space-x-2">
-                      <span className="inline-flex px-2 py-0.5 bg-[#6B705C]/10 text-[#6B705C] rounded text-[10px] font-mono font-bold uppercase tracking-wide">
+                      <span className="inline-flex px-2 py-0.5 bg-[#556B2F]/10 text-[#556B2F] rounded text-[10px] font-mono font-bold uppercase tracking-wide">
                         Robot check
                       </span>
                       <p className="font-serif text-xs font-semibold text-[#363C2E]">
@@ -321,7 +321,7 @@ export default function Contact() {
                   <button
                     type="submit"
                     disabled={loading}
-                    className="w-full py-4 rounded-xl bg-[#6B705C] hover:bg-[#556052] text-white font-sans font-semibold text-xs tracking-widest uppercase transition-all duration-300 flex items-center justify-center space-x-2 shadow-xs cursor-pointer disabled:opacity-50"
+                    className="w-full py-4 rounded-xl bg-[#556B2F] hover:bg-[#556052] text-white font-sans font-semibold text-xs tracking-widest uppercase transition-all duration-300 flex items-center justify-center space-x-2 shadow-xs cursor-pointer disabled:opacity-50"
                   >
                     {loading ? (
                       <>
@@ -354,12 +354,12 @@ export default function Contact() {
                       Transmission Logged!
                     </h4>
                     <p className="font-sans text-sm text-[#5A6050] leading-relaxed font-semibold">
-                      Thank you for connecting. Your message has been safely recorded and scheduled for review. Shreya will respond shortly.
+                      Thank you for connecting. Your message has been safely recorded and scheduled for review. Nashiat will respond shortly.
                     </p>
                   </div>
 
                   <div className="p-4 bg-[#F9F9F7] rounded-2xl max-w-sm text-left border border-[#E2E4DE]">
-                    <span className="font-mono text-[9px] uppercase tracking-widest text-[#6B705C] font-bold block mb-1">
+                    <span className="font-mono text-[9px] uppercase tracking-widest text-[#556B2F] font-bold block mb-1">
                       System Acknowledgement
                     </span>
                     <p className="font-mono text-[10px] text-[#5A6050] font-medium leading-relaxed">
@@ -374,7 +374,7 @@ export default function Contact() {
                       setSuccess(false);
                       resetChallenge();
                     }}
-                    className="px-6 py-2.5 border border-[#E2E4DE] hover:border-[#6B705C] rounded-full text-xs font-mono tracking-wide uppercase transition-colors text-[#5A6050] hover:text-[#363C2E] cursor-pointer font-bold"
+                    className="px-6 py-2.5 border border-[#E2E4DE] hover:border-[#556B2F] rounded-full text-xs font-mono tracking-wide uppercase transition-colors text-[#5A6050] hover:text-[#363C2E] cursor-pointer font-bold"
                   >
                     Submit Another Message
                   </button>

@@ -72,7 +72,7 @@ export default function CVModal({ onClose }: CVModalProps) {
             {/* Print / Save to PDF Trigger */}
             <button
               onClick={handlePrint}
-              className="px-4 py-2 rounded-full bg-[#6B705C] text-white hover:bg-[#556052] font-mono text-[11px] tracking-wide uppercase font-semibold flex items-center space-x-1.5 cursor-pointer shadow"
+              className="px-4 py-2 rounded-full bg-[#556B2F] text-white hover:bg-[#556052] font-mono text-[11px] tracking-wide uppercase font-semibold flex items-center space-x-1.5 cursor-pointer shadow"
             >
               <Printer className="w-3.5 h-3.5" />
               <span>Print / Save PDF</span>
@@ -97,11 +97,11 @@ export default function CVModal({ onClose }: CVModalProps) {
           {/* Header Row: Large text with contacts */}
           <div className="flex flex-col md:flex-row md:items-start justify-between border-b-2 border-zinc-900 pb-8 gap-6">
             <div className="text-left">
-              <span className="font-mono text-[9px] uppercase tracking-widest text-[#6B705C] font-semibold">
+              <span className="font-mono text-[9px] uppercase tracking-widest text-[#556B2F] font-semibold">
                 Journalism & Media Professional Candidate
               </span>
               <h2 className="font-serif text-3xl sm:text-4xl font-bold tracking-tight text-zinc-900 mt-1">
-                Shreya Hossain
+                Nashiat Hossain
               </h2>
               <p className="font-serif text-sm italic text-zinc-600 mt-1">
                 Dedicated Storyteller, Media Student & Ethical Content Writer
@@ -111,20 +111,20 @@ export default function CVModal({ onClose }: CVModalProps) {
             {/* Micro contacts list */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-[12px] font-sans text-zinc-650 text-left">
               <span className="flex items-center space-x-2">
-                <Mail className="w-3.5 h-3.5 text-[#6B705C]" />
-                <a href="mailto:shreyahossen@gmail.com" className="hover:underline">shreyahossen@gmail.com</a>
+                <Mail className="w-3.5 h-3.5 text-[#556B2F]" />
+                <a href="mailto:nashiathossain@gmail.com" className="hover:underline">nashiathossain@gmail.com</a>
               </span>
               <span className="flex items-center space-x-2">
-                <Phone className="w-3.5 h-3.5 text-[#6B705C]" />
+                <Phone className="w-3.5 h-3.5 text-[#556B2F]" />
                 <a href="tel:+8801762493322" className="hover:underline">+880 1762-493322</a>
               </span>
               <span className="flex items-center space-x-2">
-                <MapPin className="w-3.5 h-3.5 text-[#6B705C]" />
+                <MapPin className="w-3.5 h-3.5 text-[#556B2F]" />
                 <span>Dhaka, Bangladesh</span>
               </span>
               <span className="flex items-center space-x-2">
-                <Globe className="w-3.5 h-3.5 text-[#6B705C]" />
-                <a href="https://www.linkedin.com/in/shreya-hossain-33924734b/" target="_blank" rel="noreferrer" className="hover:underline">linkedin.com/in/shreya-hossain</a>
+                <Globe className="w-3.5 h-3.5 text-[#556B2F]" />
+                <a href="https://www.linkedin.com/in/shreya-hossain-33924734b/" target="_blank" rel="noreferrer" className="hover:underline">linkedin.com/in/nashiat-hossain</a>
               </span>
             </div>
           </div>
@@ -137,7 +137,7 @@ export default function CVModal({ onClose }: CVModalProps) {
               
               {/* Box 1: Core Education details */}
               <div className="space-y-4">
-                <h3 className="font-serif text-sm uppercase tracking-widest text-[#6B705C] font-bold border-b border-zinc-200 pb-1.5">
+                <h3 className="font-serif text-sm uppercase tracking-widest text-[#556B2F] font-bold border-b border-zinc-200 pb-1.5">
                   Academic Standings
                 </h3>
                 <div className="space-y-4 text-xs">
@@ -157,7 +157,7 @@ export default function CVModal({ onClose }: CVModalProps) {
                   </div>
 
                   <div className="p-3 rounded-lg bg-zinc-50 border border-zinc-200">
-                    <p className="font-mono text-[9px] uppercase tracking-wider text-[#6B705C] font-bold">
+                    <p className="font-mono text-[9px] uppercase tracking-wider text-[#556B2F] font-bold">
                       Grade Metric Status
                     </p>
                     <p className="font-serif text-lg font-bold text-zinc-900 mt-0.5">
@@ -172,7 +172,7 @@ export default function CVModal({ onClose }: CVModalProps) {
 
               {/* Box 2: Skills listed systematically */}
               <div className="space-y-4">
-                <h3 className="font-serif text-sm uppercase tracking-widest text-[#6B705C] font-bold border-b border-zinc-200 pb-1.5">
+                <h3 className="font-serif text-sm uppercase tracking-widest text-[#556B2F] font-bold border-b border-zinc-200 pb-1.5">
                   Core Skills List
                 </h3>
                 <div className="space-y-4 text-xs">
@@ -184,7 +184,7 @@ export default function CVModal({ onClose }: CVModalProps) {
                       <ul className="grid grid-cols-1 gap-1 pl-1">
                         {cat.skills.map((skill, sIdx) => (
                           <li key={sIdx} className="flex items-center space-x-2 text-zinc-600">
-                            <CheckCircle2 className="w-3 h-3 text-[#6B705C] flex-shrink-0" />
+                            <CheckCircle2 className="w-3 h-3 text-[#556B2F] flex-shrink-0" />
                             <span>{skill}</span>
                           </li>
                         ))}
@@ -196,7 +196,7 @@ export default function CVModal({ onClose }: CVModalProps) {
 
               {/* Box 3: Academic References */}
               <div className="space-y-3">
-                <h3 className="font-serif text-sm uppercase tracking-widest text-[#6B705C] font-bold border-b border-zinc-200 pb-1.5">
+                <h3 className="font-serif text-sm uppercase tracking-widest text-[#556B2F] font-bold border-b border-zinc-200 pb-1.5">
                   References
                 </h3>
                 <div className="text-[11px] text-zinc-600 space-y-2">
@@ -216,7 +216,7 @@ export default function CVModal({ onClose }: CVModalProps) {
               
               {/* Objective statement */}
               <div className="space-y-3">
-                <h3 className="font-serif text-sm uppercase tracking-widest text-[#6B705C] font-bold border-b border-zinc-200 pb-1.5">
+                <h3 className="font-serif text-sm uppercase tracking-widest text-[#556B2F] font-bold border-b border-zinc-200 pb-1.5">
                   Career Objective
                 </h3>
                 <p className="font-sans text-xs text-zinc-650 leading-relaxed text-justify">
@@ -226,7 +226,7 @@ export default function CVModal({ onClose }: CVModalProps) {
 
               {/* Practical Portfolio Projects details */}
               <div className="space-y-4">
-                <h3 className="font-serif text-sm uppercase tracking-widest text-[#6B705C] font-bold border-b border-zinc-200 pb-1.5">
+                <h3 className="font-serif text-sm uppercase tracking-widest text-[#556B2F] font-bold border-b border-zinc-200 pb-1.5">
                   Key Academic Projects Showcase
                 </h3>
                 
@@ -240,7 +240,7 @@ export default function CVModal({ onClose }: CVModalProps) {
                       </p>
                       <span className="font-mono text-[9px] text-zinc-500">2025</span>
                     </div>
-                    <p className="font-serif italic text-[#6B705C]">
+                    <p className="font-serif italic text-[#556B2F]">
                       Lead Research Author • Media Reports major
                     </p>
                     <p className="text-zinc-600 leading-relaxed text-justify">
@@ -256,7 +256,7 @@ export default function CVModal({ onClose }: CVModalProps) {
                       </p>
                       <span className="font-mono text-[9px] text-zinc-500">2026</span>
                     </div>
-                    <p className="font-serif italic text-[#6B705C]">
+                    <p className="font-serif italic text-[#556B2F]">
                       Independent Researcher • Research Papers major
                     </p>
                     <p className="text-zinc-600 leading-relaxed text-justify">
@@ -272,7 +272,7 @@ export default function CVModal({ onClose }: CVModalProps) {
                       </p>
                       <span className="font-mono text-[9px] text-zinc-500">2025</span>
                     </div>
-                    <p className="font-serif italic text-[#6B705C]">
+                    <p className="font-serif italic text-[#556B2F]">
                       Feature Essayist • Content Writing major
                     </p>
                     <p className="text-zinc-600 leading-relaxed text-justify">
@@ -285,7 +285,7 @@ export default function CVModal({ onClose }: CVModalProps) {
 
               {/* Achievements credentials */}
               <div className="space-y-3">
-                <h3 className="font-serif text-sm uppercase tracking-widest text-[#6B705C] font-bold border-b border-zinc-200 pb-1.5">
+                <h3 className="font-serif text-sm uppercase tracking-widest text-[#556B2F] font-bold border-b border-zinc-200 pb-1.5">
                   Relevant Certifications
                 </h3>
                 <div className="space-y-2 text-xs text-zinc-600">

@@ -75,7 +75,7 @@ export default function CustomCursor() {
       />
       {/* Inner precise dot */}
       <motion.div
-        className="fixed top-0 left-0 w-1.5 h-1.5 rounded-full pointer-events-none z-50 bg-[#6B705C]"
+        className="fixed top-0 left-0 w-1.5 h-1.5 rounded-full pointer-events-none z-50 bg-[#556B2F]"
         style={{
           x: dotXSpring,
           y: dotYSpring,
