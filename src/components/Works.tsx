@@ -223,17 +223,91 @@ export default function Works() {
 
                     {/* Standard prose splits by double breaks */}
                     {activeProject.content.split("\n\n").map((para, pIdx) => {
+                      const trimmed = para.trim();
+                      
+                      const parseText = (text: string) => {
+                        const regex = /(\*\*.*?\*\*|\*.*?\*)/g;
+                        const splitParts = text.split(regex);
+                        return splitParts.map((part, index) => {
+                          if (part.startsWith("**") && part.endsWith("**")) {
+                            return (
+                              <strong key={index} className="font-bold text-[#363C2E]">
+                                {part.slice(2, -2)}
+                              </strong>
+                            );
+                          }
+                          if (part.startsWith("*") && part.endsWith("*")) {
+                            return (
+                              <em key={index} className="italic text-[#556052] font-serif">
+                                {part.slice(1, -1)}
+                              </em>
+                            );
+                          }
+                          return part;
+                        });
+                      };
+
+                      // 1. Heading level 3: ### Heading
+                      if (trimmed.startsWith("### ")) {
+                        return (
+                          <h6 key={pIdx} className="font-serif text-lg font-bold text-[#363C2E] mt-8 mb-3 pt-4 border-t border-[#E2E4DE]/60 select-none">
+                            {parseText(trimmed.slice(4))}
+                          </h6>
+                        );
+                      }
+                      
+                      // 2. Blockquote: > "Quote text" or > — Citation
+                      if (trimmed.startsWith("> ")) {
+                        const lines = trimmed.split("\n");
+                        const quoteText = lines[0].slice(2).replace(/^“|”$/g, "");
+                        const citation = lines[1] && lines[1].trim().startsWith("—") 
+                          ? lines[1].slice(1).trim() 
+                          : null;
+                        return (
+                          <div key={pIdx} className="my-6 p-5 bg-[#556B2F]/5 border-l-4 border-[#556B2F] rounded-r-lg">
+                            <p className="font-serif italic text-sm text-[#4E5645] leading-relaxed">
+                              “{parseText(quoteText)}”
+                            </p>
+                            {citation && (
+                              <p className="font-mono text-[10px] text-[#556B2F] font-bold mt-2.5 tracking-wider uppercase">
+                                — {citation}
+                              </p>
+                            )}
+                          </div>
+                        );
+                      }
+                      
+                      // 3. Bullet points list items
+                      if (trimmed.startsWith("* ") || trimmed.startsWith("- ")) {
+                        const listItems = trimmed.split("\n").map(line => line.trim().replace(/^[\*\-]\s+/, ""));
+                        return (
+                          <ul key={pIdx} className="space-y-2.5 my-5 pl-3 list-none">
+                            {listItems.map((item, itemIdx) => (
+                              <li key={itemIdx} className="font-sans text-[14px] sm:text-[15px] text-[#5A6050] flex items-start space-x-2.5 leading-relaxed">
+                                <span className="text-[#556B2F] mt-1.5 flex-shrink-0 text-xs select-none">•</span>
+                                <span className="text-justify">{parseText(item)}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        );
+                      }
+
+                      // 4. Standard paragraph
                       return (
                         <p 
                           key={pIdx} 
-                          className="font-sans text-[14px] sm:text-[15px] leading-relaxed text-[#363C2E] text-justify"
+                          className="font-sans text-[14px] sm:text-[15px] leading-relaxed text-[#5C6254] text-justify"
                         >
-                          {pIdx === 0 ? (
-                            <span className="float-left text-5xl font-serif font-bold text-[#556B2F] mr-2.5 mt-1.5 leading-[0.8] uppercase">
-                              {para.charAt(0)}
-                            </span>
-                          ) : null}
-                          {pIdx === 0 ? para.slice(1) : para}
+                          {pIdx === 0 && trimmed.length > 0 ? (
+                            <>
+                              <span className="float-left text-5xl font-serif font-bold text-[#556B2F] mr-2.5 mt-1 leading-[0.85] uppercase select-none">
+                                {trimmed.charAt(0)}
+                              </span>
+                              {parseText(trimmed.slice(1))}
+                            </>
+                          ) : (
+                            parseText(trimmed)
+                          )}
                         </p>
                       );
                     })}

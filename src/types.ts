@@ -195,6 +195,76 @@ export const TIMELINE_DATA: TimelineItem[] = [
 
 export const FEATURED_WORKS: Project[] = [
   {
+    id: "proj-tobacco",
+    title: "The Smoke That Never Leaves",
+    category: "Media Reports",
+    description: "An evocative, deep-dive investigative feature on tobacco normalization, its systemic and economic toll in Bangladesh, and the psychological anatomy of addiction.",
+    image: "/assets/images/smoke_never_leaves.jpg",
+    date: "May 31, 2026",
+    content: `At Nilkhet, beside the crowded footpath lined with bookshops and photocopy stores, cigarette packets hang from strings above a tea stall, swaying slightly in the heat rising from boiling kettles. A young man leans against the rusted railing near the bus stop, one hand holding a cigarette, the other scrolling through his phone. Around him, three others light up in quick succession – no one comments, no one looks twice. Behind them, the tea seller tears open single-cigarette packets for customers who buy one stick at a time. A few university students, rickshaw pullers, and passing commuters stand alone or in loose circles, exchanging cigarettes between conversations before returning to class, pulling another ride through the city streets, or stepping back into the routines of work.
+
+Elsewhere in a dimly lit room, a writer sits hunched over his desk, pages scattered around him. A cup of tea cools slowly by his side, while a cigarette burns between his fingers. He pauses, takes a drag, and returns to his sentence, as if the rhythm of thought itself depends on that brief inhale. For him, the pairing of tea and smoke is not indulgence but a method, a habit so ingrained that writing or any kind of creative works without it feels incomplete. What begins as a small ritual soon becomes a necessity, quietly reinforcing the idea that tobacco fuels creativity, focus, and flow. On university campuses, in office stairwells, along narrow alleyways, in restaurants' smoking zones, and almost everywhere, tobacco appears not as a vice but as a quiet companion. Smoke drifts, conversation continues, and the ritual repeats, almost unnoticed.
+
+### The Human Cost
+In Bangladesh, tobacco is not a rare indulgence; it is a mass habit woven into the rhythm of everyday life. Even as usage shows signs of decline, the scale remains striking – nearly one in three adults still lives with tobacco as a daily companion. What appears on the surface as an individual choice quietly unfolds into a shared reality, shaping not only personal health but also the well-being of families and communities.
+
+A persistent cough, a tightening in the chest, a fatigue that no longer fades with rest – these are the early warnings that many choose to ignore. In Ashulia, Jalal, a 44-year-old tea seller, wipes his mouth with the sleeve of his worn shirt before taking another drag from his cigarette. *“For the last five years, this cough never leaves me,”* he says, pausing between breaths. *“The doctor told me my lungs are damaged, but how can I stop? I stand by the roadside all day; this is my only break.”* For families like Jalal's, tobacco is not confined to the smoker; it lingers in shared spaces, quietly entering the bodies of those who never chose it.
+
+From village tea stalls to corporate smoking balconies, tobacco survives in different forms yet remains familiar. Across the country, tobacco cuts across class and profession, appearing in different forms but carrying the same long-term consequences. Public health experts frequently point to this contradiction: many smokers understand the dangers of smoking, yet struggle to separate the habit from daily life. The effects eventually surface in hospitals and homes alike. Doctors across Bangladesh continue to link tobacco use to lung disease, throat cancer, heart complications, and chronic respiratory illness. But the burden rarely remains confined to the smoker alone. Children and family members living around constant smoke often become silent victims of second-hand exposure, particularly in households where smoking indoors is normalized.
+
+Beyond health, tobacco also leaves a quiet economic strain. Research shows that many low-income families spend a notable share of their earnings on cigarettes, vapes, or smokeless tobacco, while treatment costs for tobacco-related illness push vulnerable households even further into financial hardship. What begins as an ordinary habit gradually grows into a wider cycle of physical, emotional, and economic loss – one that extends far beyond the individual smoker.
+
+### The Industry and System
+While tobacco generates revenue, the country loses an estimated **391 billion taka annually** through healthcare costs, premature deaths, families losing income after years of smoking-related illness, and the wider economic strain created by tobacco dependency. This deep economic contradiction is difficult to ignore: a sector that contributes to the economy also imposes a far heavier hidden burden on it and on ordinary families struggling with medical expenses, reduced earnings, and long-term health complications. Behind every statistic are households adjusting to illnesses, slowly becoming part of daily life.
+
+The industry's reach often begins early. Official and research data show that tobacco use among children and adolescents, though lower than among adults, continues to persist through social normalization and easy accessibility. Young people see friends, relatives, and even teachers smoking at tea stalls, on buses, and in college corridors; learning from example more than from warning labels. Studies indicate that many initiate tobacco use during secondary and higher secondary school years, attracted by the image of “coolness”, stress relief, or rebellion rather than any clear understanding of long-term risk.
+
+Much of this accessibility is built into the physical landscape of daily life. In countless tea stalls across the country, vendors sell single sticks or half-packets of bidis, allowing students and low-income workers to afford a daily habit they would otherwise struggle to finance. Talking to Shamim, who owns a tong shop in Mirpur, we learned that he earns around **Tk 5k to 7k per month** from selling cigarettes. Research estimates that nearly 97 percent of all tobacco sales flow through tea stalls, grocery shops, paan stalls, and street vendors. What moves most is not the premium packet but the cheapest tiers – low-price brands affordable enough that daily-wage workers can buy them without much hesitation.
+
+> “Chattro ra, rickshaw wala era to ekta korei kine. Ekta kore kinle ki hobe, din sheshe hishab koren, onek hoy.”
+> — Shamim, Tong Shop Owner, Mirpur
+
+The single stick is where the real volume is. Customers rarely pause long enough to notice the warning labels printed across the packets hanging above the counter. Surveys found that nearly all small retailers sell cigarettes individually, with single-stick sales often running several times higher than full-pack sales on most days. Bangladesh’s tobacco-control laws still do not explicitly prohibit the practice.
+
+A single bidi, neatly wrapped in a leaf, costs only a few taka – making it easier to rationalize as “just one” rather than as the first step in lifelong addiction. At the same time, although overt tobacco advertising has been restricted, loopholes and sponsorship-style visibility remain: branded events, product-linked promotions, and subtle placements in public spaces keep the image of smoking alive, especially around sports, youth gatherings, and informal entertainment.
+
+All of these point to a systematic failure: a regulatory environment that, for decades, has struggled to keep pace with industry tactics and social habits. The same policies that tax tobacco as revenue must also confront the fact that it is poisoning the very workforce and citizens that the economy depends on. The question is not only about banning more products, but about redesigning a system that still allows tobacco to slip into the hands of children, to be sold at the price of a biscuit, and to be normalized in the very places where people gather, talk, and relax. Until then, the industry's quiet presence in tea stalls, on buses, or in the corners of campuses will remain one of the country's most dangerous habits, disguised as harmless routine.
+
+### Global Reality vs. Industry Tactics
+
+Tobacco is often discussed as a personal habit or a national public-health issue. But in reality, it is a part of a much larger global crisis. Like many low and middle-income countries, Bangladesh continues to carry a disproportionate share of the global tobacco burden, where high consumption, limited healthcare access, and aggressive industry tactics intersect in ways that make tobacco especially difficult to control. Across South Asia and other developing regions, tobacco remains deeply embedded in everyday life – not only through cigarettes, but also through smokeless products, informal sales networks, and cultural acceptance passed across generations.
+
+It is against this global backdrop that **World No Tobacco Day** is observed every year on **May 31**. The campaign was created in 1987 by member states of the World Health Organization (WHO) to draw international attention to the growing tobacco epidemic and the millions of preventable deaths linked to it. The first official observance took place on May 31, 1988, and since then, the day has evolved into a worldwide public health movement involving governments, researchers, activists, and healthcare organizations.
+
+Each year, WHO selects a specific theme to focus on a major aspect of tobacco control. The **2026 theme**, *“Unmasking the Appeal: Countering Nicotine and Tobacco Addiction,”* reflects a growing global concern about how the tobacco and nicotine industry is reinventing itself to attract younger generations. 
+
+According to the WHO, companies are increasingly using:
+* **Sleek Designs**: Electronic devices and puff bars styled like modern flash drives or beauty products.
+* **Sweet Flavors**: E-liquids mimicking desserts, fruits, and candies to mask chemical harshness.
+* **Addiction as a Lifestyle**: Marketing e-cigarettes and nicotine pouches as chic, high-tech accessories.
+
+The observance is not limited to health warnings alone. WHO and its partners use the occasion to expose how tobacco companies exploit policy loopholes. Public health experts warn about strategies such as indirect advertising, sponsorships, youth-centered branding, and the normalization of smoking through media and social culture. Governments are therefore encouraged to adopt stronger tobacco-control measures, including higher taxes, complete advertising bans, plain packaging, and smoke-free public spaces.
+
+### Why Quitting Feels Personal
+This part would be better understood if it were said this way. For example, in a dimly lit café in Dhaka, a young writer stares at a blank document, cigarette resting between his fingers. Around him, conversations rise and fall in bursts of laughter, and smoke curls lazily toward the ceiling. Every few minutes, he pauses to take a drag before returning to the blinking cursor on his screen. Somewhere along the way, the ritual has convinced him that any creative work or work pressure feels easier this way – that nicotine steadies the mind, sharpens thought, and keeps loneliness at a distance. To quit would feel less like abandoning a habit and more like losing a familiar companion.
+
+For many smokers, this is where the struggle truly begins. Tobacco is rarely attached only to nicotine; it becomes tied to emotion, routine, and memory. People speak of cigarettes as “stress relief” or a way to calm the mind after a long day, difficult conversations, or quite disappointing events. Psychological research has long shown that stress increases the urge to smoke, even though the temporary comfort nicotine provides often deepens anxiety and emotional dependence over time. What feels calming in the moment can slowly become part of the exhaustion itself. 
+
+In Bangladesh, smoking is also woven into ideas of masculinity and belonging. The first cigarette is often shared among friends after class, at tea stalls, or during late-night conversations. In these spaces, smoking becomes less about tobacco and more about fitting in – about appearing mature, confident, or emotionally unshaken. Refusing a cigarette can feel like distancing oneself from the group itself. And when someone finally manages to do so, the victory often feels quieter and more intimate than any public campaign can fully capture.
+
+Another World No Tobacco Day arrived, but the smoke continues to rise from tea stalls, bus stands, office or house balconies, and quiet bedroom windows across Bangladesh. For many, it still appears ordinary. Yet behind this familiarity lies a reality far less visible. **Nearly one in five deaths in Bangladesh carries the imprint of tobacco,** turning what often feels like a personal habit into a slow and deeply collective tragedy. 
+
+But the true weight of tobacco is rarely understood through statistics alone:
+* It exists in the **empty chair** at a family dinner table.
+* In **hospital corridors** where relatives wait through sleepless nights.
+* In **children learning too early** how fragile adults can be.
+
+Sometimes it appears more quietly than that – in the tired cough that never fully disappears, in medicines bought instead of schoolbooks. Tobacco rarely destroys life at once. More often, it erodes them slowly, almost gently, until the loss becomes impossible to ignore.
+
+And still, despite the warnings, quitting remains one of the most personal battles many people face. To let go of smoking is often to confront parts of oneself that have long depended on its presence. Perhaps that is why meaningful change rarely begins with campaigns alone. It begins quietly: in the brief hesitation before lighting another cigarette, in the decision to refuse the familiar comfort of smoke, in the moment someone chooses to imagine life differently. Sometimes the most important revolutions are the quietest ones – the kind that begin with a single breath taken without tobacco.`,
+    tags: ["Investigative Journalism", "Tobacco Control", "Public Health", "Bangladesh Policy", "World No Tobacco Day"]
+  },
+  {
     id: "proj-ray",
     title: "Revisiting Satyajit Ray in the Age of Noise",
     category: "Content Writing",
