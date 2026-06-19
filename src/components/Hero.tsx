@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { Newspaper, Mic, PenTool, Award, MessageSquare, ArrowDown, FileText } from "lucide-react";
 
 // Reference the generated image path directly as a relative string asset
-const portraitImg = "/src/assets/images/shreya_portrait_1781843448678.jpg";
+const portraitImg = "/assets/images/shreya_portrait_1781843448678.jpg";
 
 interface HeroProps {
   onOpenCV: () => void;
