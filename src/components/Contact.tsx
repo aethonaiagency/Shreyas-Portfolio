@@ -85,8 +85,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-mono text-[9px] uppercase tracking-wider text-white/70">Mobile Coordinate</p>
-                      <a href="tel:+8801762493322" className="font-sans text-sm hover:underline hover:text-white/90 transition-colors font-semibold block mt-1">
-                        +880 1762-493322
+                      <a href="tel:+880162493322" className="font-sans text-sm hover:underline hover:text-white/90 transition-colors font-semibold block mt-1">
+                        +880 162493322
                       </a>
                     </div>
                   </div>
