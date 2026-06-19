@@ -4,7 +4,7 @@ import { BookOpen, Award, Compass, GraduationCap, Calendar } from "lucide-react"
 import { ACADEMIC_STATS } from "../types";
 
 // Reference the generated desktop workspace image directly as a relative string asset
-const desktopImg = "/assets/images/journalism_desktop_1781843617300.jpg";
+const desktopImg = "/assets/images/journalism_desktop.jpg";
 
 export default function About() {
   return (

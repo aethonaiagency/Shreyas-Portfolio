@@ -199,7 +199,7 @@ export const FEATURED_WORKS: Project[] = [
     title: "Revisiting Satyajit Ray in the Age of Noise",
     category: "Content Writing",
     description: "Revisiting Satyajit Ray's timeless neorealism, visual storytelling, and polymathic contributions to literature and design as an urgent reclamation in our loud, hyperconnected modern world.",
-    image: "/assets/images/regenerated_image_1781845757699.jpg",
+    image: "/assets/images/satyajit_ray_scene.jpg",
     date: "May 2, 2026",
     content: `A narrow village path stretches into the distance, the wind moves through tall Kans Grass, whispering secrets only the field seems to understand. Durga, with a piece of sugarcane in her mouth, tries to understand where the clickety-clack sound is coming from. Apu follows his sister, wondering with quiet hesitation where they have come. With the increasing sound, they run breathless, curious – chasing not just a train but a fleeting glimpse of a world beyond their own.
 
@@ -329,7 +329,7 @@ Radio production and journalism remain vibrant fields, even in the digital age. 
     title: "Power Rarely Surrenders Willingly: From Magna Carta to the Bangladesh Constitution",
     category: "Research Papers",
     description: "An in-depth research paper tracking the historical development of the Magna Carta from Runnymede (1215) through global constitutional landmarks to its direct expression in Articles 31, 32, and 35 of the 1972 Bangladesh Constitution.",
-    image: "/assets/images/regenerated_image_1781845901260.jpg",
+    image: "/assets/images/magna_carta.jpg",
     date: "June 2026",
     content: `How does a document sealed in a meadow 811 years ago continue to shape the modern struggle between authority and accountability? On a summer day in June 1215, beside a meadow called Runnymede, England’s King John found himself surrounded by men who had grown tired of his demands, his taxes, and his unchecked authority. They were not revolutionaries in the modern sense. They were barons protecting their own interests. Yet what unfolded that day would become one of history’s most enduring challenges to power. The document they forced the king to seal became known as the Magna Carta.
 
