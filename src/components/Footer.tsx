@@ -20,7 +20,7 @@ export default function Footer({ onOpenCV }: FooterProps) {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#556052] text-[#F9F9F7] py-16 transition-colors duration-350 select-none relative z-10 border-t border-white/5">
+    <footer className="bg-[#3a4a17] text-[#F9F9F7] py-16 transition-colors duration-350 select-none relative z-10 border-t border-white/5">
       
       {/* Editorial Grid Backing on Dark Footer */}
       <div className="absolute inset-0 editorial-grid pointer-events-none opacity-5" />
@@ -109,7 +109,7 @@ export default function Footer({ onOpenCV }: FooterProps) {
                 <span>shreyahossen@gmail.com</span>
               </a>
               <a 
-                href="https://www.linkedin.com/in/shreya-hossain-33924734b/" 
+                href="https://www.linkedin.com/in/syeda-samia-hossen-shrea-2a5a76311/" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="hover:text-white flex items-center space-x-2 transition-colors"
@@ -131,14 +131,7 @@ export default function Footer({ onOpenCV }: FooterProps) {
 
         {/* Lower row block */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/60 font-mono">
-          <p>© {currentYear} Nashiat Hossain. All rights reserved.</p>
-          
-          <div className="flex items-center space-x-1.5 self-center text-white/70">
-            <span>Designed by</span>
-            <span className="font-serif text-[13px] font-bold text-white tracking-wide uppercase hover:text-white/85 transition-colors cursor-pointer">
-              SHREYA
-            </span>
-          </div>
+          <p>© {currentYear} Shreya Hossen. All rights reserved.</p>
         </div>
 
       </div>

@@ -104,7 +104,7 @@ export default function Works() {
                         <Calendar className="w-3.5 h-3.5" />
                         <span>{project.date}</span>
                         <span>•</span>
-                        <span>By Nashiat Hossain</span>
+                        <span>By Shreya Hossen</span>
                       </div>
 
                       <h4 className="font-serif text-lg leading-snug font-semibold text-[#363C2E] group-hover:text-[#556B2F] transition-colors line-clamp-2">
@@ -198,10 +198,10 @@ export default function Works() {
                     <div className="flex flex-wrap items-center gap-4 pt-1">
                       <div className="flex items-center space-x-2">
                         <span className="w-6 h-6 rounded-full bg-[#556B2F] text-white font-bold font-serif text-[10px] flex items-center justify-center">
-                          NH
+                          SH
                         </span>
                         <span className="font-serif text-[12px] font-semibold text-[#363C2E]">
-                          By Nashiat Hossain
+                          By Shreya Hossen
                         </span>
                       </div>
                       <span className="text-[#E2E4DE]">•</span>

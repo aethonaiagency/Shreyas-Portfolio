@@ -77,7 +77,7 @@ export default function About() {
             {/* Biography text */}
             <div className="space-y-4">
               <h4 className="font-serif text-xl text-[#363C2E] font-normal italic">
-                Nashiat Hossain — Journalist, researcher, and critical observer.
+                Shreya Hossen — Journalist, researcher, and critical observer.
               </h4>
               <p className="font-sans text-[14px] sm:text-[15px] leading-relaxed text-[#5A6050]">
                 I am currently pursuing a Bachelor of Social Science (BSS) in Journalism, Media & Communication at <strong>Daffodil International University</strong>. Driven by a deep curiosity for social truths and a dedication to media integrity, I craft long-form reports, analyze literature, and design communicative frameworks.

@@ -101,7 +101,7 @@ export default function CVModal({ onClose }: CVModalProps) {
                 Journalism & Media Professional Candidate
               </span>
               <h2 className="font-serif text-3xl sm:text-4xl font-bold tracking-tight text-zinc-900 mt-1">
-                Nashiat Hossain
+                Shreya Hossen
               </h2>
               <p className="font-serif text-sm italic text-zinc-600 mt-1">
                 Dedicated Storyteller, Media Student & Ethical Content Writer
@@ -112,7 +112,7 @@ export default function CVModal({ onClose }: CVModalProps) {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-[12px] font-sans text-zinc-650 text-left">
               <span className="flex items-center space-x-2">
                 <Mail className="w-3.5 h-3.5 text-[#556B2F]" />
-                <a href="mailto:nashiathossain@gmail.com" className="hover:underline">nashiathossain@gmail.com</a>
+                <a href="mailto:shreyahossen@gmail.com" className="hover:underline">shreyahossen@gmail.com</a>
               </span>
               <span className="flex items-center space-x-2">
                 <Phone className="w-3.5 h-3.5 text-[#556B2F]" />
@@ -124,7 +124,7 @@ export default function CVModal({ onClose }: CVModalProps) {
               </span>
               <span className="flex items-center space-x-2">
                 <Globe className="w-3.5 h-3.5 text-[#556B2F]" />
-                <a href="https://www.linkedin.com/in/shreya-hossain-33924734b/" target="_blank" rel="noreferrer" className="hover:underline">linkedin.com/in/nashiat-hossain</a>
+                <a href="https://www.linkedin.com/in/syeda-samia-hossen-shrea-2a5a76311/" target="_blank" rel="noreferrer" className="hover:underline">linkedin.com/in/syeda-samia-hossen-shrea</a>
               </span>
             </div>
           </div>

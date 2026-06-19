@@ -21,6 +21,15 @@ export default function Hero({ onOpenCV }: HeroProps) {
     }
   };
 
+  // Drifting editorial keywords for a sleek background journalism atmosphere
+  const backgroundTexts = [
+    { text: "TRUTH", size: "text-[40px] sm:text-[70px]", top: "12%", left: "8%", xRange: [0, 30, -30, 0], yRange: [0, -25, 25, 0], delay: 0, duration: 25 },
+    { text: "ETHICS", size: "text-[35px] sm:text-[60px]", top: "55%", left: "75%", xRange: [0, -25, 25, 0], yRange: [0, 30, -30, 0], delay: 3, duration: 30 },
+    { text: "VOICE", size: "text-[45px] sm:text-[80px]", top: "78%", left: "10%", xRange: [0, 25, -20, 0], yRange: [0, -20, 25, 0], delay: 1, duration: 28 },
+    { text: "MEDIA", size: "text-[30px] sm:text-[50px]", top: "22%", left: "68%", xRange: [0, -30, 20, 0], yRange: [0, 25, -25, 0], delay: 4, duration: 24 },
+    { text: "SOCIETY", size: "text-[38px] sm:text-[65px]", top: "62%", left: "42%", xRange: [0, 20, -25, 0], yRange: [0, -30, 20, 0], delay: 2, duration: 32 },
+  ];
+
   // floating animation config
   const floatTransition = (delay: number) => ({
     y: {
@@ -50,6 +59,62 @@ export default function Hero({ onOpenCV }: HeroProps) {
       {/* Decorative blurred blobs of Olive Green behind content */}
       <div className="absolute top-1/4 left-1/10 w-96 h-96 rounded-full bg-[#556B2F]/8 blur-3xl pointer-events-none" />
       <div className="absolute bottom-1/4 right-1/10 w-96 h-96 rounded-full bg-[#556B2F]/5 blur-3xl pointer-events-none" />
+
+      {/* Drifting Typography Particles */}
+      {backgroundTexts.map((bg, idx) => (
+        <motion.div
+          key={idx}
+          className={`absolute font-serif font-black tracking-[0.25em] select-none pointer-events-none text-[#556B2F] ${bg.size}`}
+          style={{
+            top: bg.top,
+            left: bg.left,
+            zIndex: 0,
+          }}
+          animate={{
+            x: bg.xRange,
+            y: bg.yRange,
+            opacity: [0.015, 0.045, 0.03, 0.015],
+          }}
+          transition={{
+            duration: bg.duration,
+            repeat: Infinity,
+            repeatType: "mirror",
+            ease: "easeInOut",
+            delay: bg.delay,
+          }}
+        />
+      ))}
+
+      {/* Gentle Floating Grid Accents (moving circular thin lines and rings) */}
+      <motion.div
+        className="absolute w-[300px] h-[300px] sm:w-[450px] sm:h-[450px] rounded-full border border-[#556B2F]/10 pointer-events-none"
+        style={{ top: "12%", left: "50%", zIndex: 0 }}
+        animate={{
+          x: [0, 35, -25, 0],
+          y: [0, -30, 20, 0],
+          scale: [1, 1.04, 0.96, 1],
+        }}
+        transition={{
+          duration: 22,
+          repeat: Infinity,
+          ease: "easeInOut",
+        }}
+      />
+      
+      <motion.div
+        className="absolute w-[180px] h-[180px] sm:w-[250px] sm:h-[250px] rounded-full border border-dashed border-[#556B2F]/12 pointer-events-none"
+        style={{ bottom: "10%", left: "8%", zIndex: 0 }}
+        animate={{
+          x: [0, -25, 15, 0],
+          y: [0, 20, -25, 0],
+          rotate: [0, 360],
+        }}
+        transition={{
+          duration: 32,
+          repeat: Infinity,
+          ease: "linear",
+        }}
+      />
 
       {/* Fine editorial layout marker lines */}
       <div className="absolute top-0 left-12 w-[1px] h-full bg-[#E2E4DE] hidden md:block" />
@@ -172,7 +237,7 @@ export default function Hero({ onOpenCV }: HeroProps) {
                 {/* Hover zoom picture */}
                 <motion.img
                   src={portraitImg}
-                  alt="Nashiat Hossain"
+                  alt="Shreya Hossain"
                   className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-106"
                   referrerPolicy="no-referrer"
                 />

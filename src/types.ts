@@ -395,7 +395,7 @@ export const JOURNALISM_QUOTES = [
   },
   {
     quote: "Our job is not to make people comfortable. Our job is to tell stories that need telling with uncompromising truth.",
-    author: "Nashiat Hossain"
+    author: "Shreya Hossen"
   },
   {
     quote: "Literature is the prefix of life, but journalism is its direct, daily transcript.",
